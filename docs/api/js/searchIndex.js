@@ -1,0 +1,54 @@
+Search.appendIndex(
+    [
+                {
+            "fqsen": "\\taoxin\\utils\\ArticleGenerator",
+            "name": "ArticleGenerator",
+            "summary": "\u6587\u7AE0\u751F\u6210\u5668",
+            "url": "classes/taoxin-utils-ArticleGenerator.html"
+        },                {
+            "fqsen": "\\taoxin\\utils\\ArticleGenerator\u003A\u003Agenerator\u0028\u0029",
+            "name": "generator",
+            "summary": "",
+            "url": "classes/taoxin-utils-ArticleGenerator.html#method_generator"
+        },                {
+            "fqsen": "\\taoxin\\utils\\MyCurl",
+            "name": "MyCurl",
+            "summary": "HTTP\u5BA2\u6237\u7AEF",
+            "url": "classes/taoxin-utils-MyCurl.html"
+        },                {
+            "fqsen": "\\taoxin\\utils\\MyCurl\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/taoxin-utils-MyCurl.html#method___construct"
+        },                {
+            "fqsen": "\\taoxin\\utils\\MyCurl\u003A\u003Apost\u0028\u0029",
+            "name": "post",
+            "summary": "post\u0020\u8BF7\u6C42",
+            "url": "classes/taoxin-utils-MyCurl.html#method_post"
+        },                {
+            "fqsen": "\\taoxin\\utils\\MyCurl\u003A\u003Aget\u0028\u0029",
+            "name": "get",
+            "summary": "get\u0020\u8BF7\u6C42",
+            "url": "classes/taoxin-utils-MyCurl.html#method_get"
+        },                {
+            "fqsen": "\\taoxin\\utils\\MyCurl\u003A\u003A\u0024curl",
+            "name": "curl",
+            "summary": "",
+            "url": "classes/taoxin-utils-MyCurl.html#property_curl"
+        },                {
+            "fqsen": "\\",
+            "name": "\\",
+            "summary": "",
+            "url": "namespaces/default.html"
+        },                {
+            "fqsen": "\\taoxin\\utils",
+            "name": "utils",
+            "summary": "",
+            "url": "namespaces/taoxin-utils.html"
+        },                {
+            "fqsen": "\\taoxin",
+            "name": "taoxin",
+            "summary": "",
+            "url": "namespaces/taoxin.html"
+        }            ]
+);

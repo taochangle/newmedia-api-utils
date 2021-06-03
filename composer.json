@@ -1,19 +1,21 @@
 {
-    "name": "taoxin/utils",
-    "type": "library",
-    "authors": [
-        {
-            "name": "陶欣",
-            "email": "taoxin0704@gmail.com"
-        }
-    ],
-    "version": "1.0.0",
-    "require": {
-        "php-curl-class/php-curl-class": "^9.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "taoxin\\utils\\":"src/"
-        }
+  "name": "taoxin/utils",
+  "type": "library",
+  "description": "工具集合",
+  "authors": [
+    {
+      "name": "陶欣",
+      "email": "taoxin0704@gmail.com"
     }
+  ],
+  "version": "1.0.1",
+  "require": {
+    "php": "7.4.*",
+    "php-curl-class/php-curl-class": "^9.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "taoxin\\utils\\": "src/"
+    }
+  }
 }
