@@ -57,7 +57,7 @@ class MyCurl
         if ($this->curl->error) {
             return [
                 'success' => false,
-                'message' => '请求错误，' . $this->curl->errorMessage,
+                'message' =>  $this->curl->errorMessage,
                 'data' => null
             ];
         }
