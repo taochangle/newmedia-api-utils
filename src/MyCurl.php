@@ -32,7 +32,7 @@ class MyCurl
         if ($this->curl->error) {
             return [
                 'success' => false,
-                'message' => '请求错误，' . $this->curl->errorMessage,
+                'message' => $this->curl,
                 'data' => null
             ];
         }
@@ -57,7 +57,7 @@ class MyCurl
         if ($this->curl->error) {
             return [
                 'success' => false,
-                'message' =>  $this->curl->errorMessage,
+                'message' =>  $this->curl,
                 'data' => null
             ];
         }
@@ -66,5 +66,9 @@ class MyCurl
             'message' => '',
             'data' => $this->curl->response
         ];
+    }
+
+    public function __destruct(){
+        $this->curl->close();
     }
 }
