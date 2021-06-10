@@ -9,7 +9,7 @@
       "email": "taoxin0704@gmail.com"
     }
   ],
-  "version": "1.0.4",
+  "version": "1.0.5",
   "require": {
     "php": "7.4.*",
     "php-curl-class/php-curl-class": "^9.1"

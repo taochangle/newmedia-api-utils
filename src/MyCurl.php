@@ -7,6 +7,7 @@ use Curl\Curl;
 
 /**
  * HTTP客户端
+ *
  * @package taoxin\utils
  */
 class MyCurl
@@ -20,12 +21,14 @@ class MyCurl
 
     /**
      * post 请求
+     *
      * @param string $url 请求地址
-     * @param array $data 请求参数
-     * @param array $headers
+     * @param        $data
+     * @param array  $headers
+     *
      * @return array
      */
-    public function post(string $url = '', array $data = [], array $headers = []): array
+    public function post(string $url = '', $data = null, array $headers = []): array
     {
         !empty($headers) && $this->curl->setHeaders($headers);
         $this->curl->post($url, $data);
@@ -45,9 +48,11 @@ class MyCurl
 
     /**
      * get 请求
+     *
      * @param string $url 请求地址
-     * @param array $data 请求参数
-     * @param array $headers
+     * @param array  $data 请求参数
+     * @param array  $headers
+     *
      * @return array
      */
     public function get(string $url = '', array $data = [], array $headers = []): array
@@ -57,7 +62,7 @@ class MyCurl
         if ($this->curl->error) {
             return [
                 'success' => false,
-                'message' =>  $this->curl,
+                'message' => $this->curl,
                 'data' => null
             ];
         }
@@ -68,7 +73,8 @@ class MyCurl
         ];
     }
 
-    public function __destruct(){
+    public function __destruct()
+    {
         $this->curl->close();
     }
 }
