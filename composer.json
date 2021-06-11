@@ -1,7 +1,7 @@
 {
   "name": "taoxin/utils",
   "type": "library",
-  "license": "Common Public License 1.0",
+  "license": "",
   "description": "工具集合",
   "authors": [
     {
@@ -9,7 +9,7 @@
       "email": "taoxin0704@gmail.com"
     }
   ],
-  "version": "1.10.0",
+  "version": "1.0.10",
   "require": {
     "php": "7.4.*",
     "php-curl-class/php-curl-class": "^9.1",
