@@ -24,7 +24,7 @@ class MyCurl
      *
      * @param string $url 请求地址
      * @param        $data
-     * @param array  $headers
+     * @param array $headers
      *
      * @return array
      */
@@ -43,7 +43,7 @@ class MyCurl
         return [
             'success' => true,
             'message' => '',
-            'data' => $this->curl->response
+            'data' => Tools::object2array($this->curl->response)
         ];
     }
 
@@ -51,8 +51,8 @@ class MyCurl
      * get 请求
      *
      * @param string $url 请求地址
-     * @param array  $data 请求参数
-     * @param array  $headers
+     * @param array $data 请求参数
+     * @param array $headers
      *
      * @return array
      */
@@ -70,7 +70,7 @@ class MyCurl
         return [
             'success' => true,
             'message' => '',
-            'data' => $this->curl->response
+            'data' => Tools::object2array($this->curl->response)
         ];
     }
 
