@@ -32,6 +32,7 @@ class MyCurl
     {
         !empty($headers) && $this->curl->setHeaders($headers);
         $this->curl->setTimeout(300);
+        $this->curl->setOpt(CURLOPT_FOLLOWLOCATION, true);
         $this->curl->post($url, $data);
         if ($this->curl->error) {
             return [
@@ -59,6 +60,7 @@ class MyCurl
     public function get(string $url = '', array $data = [], array $headers = []): array
     {
         !empty($headers) && $this->curl->setHeaders($headers);
+        $this->curl->setOpt(CURLOPT_FOLLOWLOCATION, true);
         $this->curl->get($url, $data);
         if ($this->curl->error) {
             return [
