@@ -8,9 +8,8 @@
       "email": "taoxin0704@gmail.com"
     }
   ],
-  "version": "1.0.16",
+  "version": "1.0.17",
   "require": {
-    "php": "7.4.*",
     "php-curl-class/php-curl-class": "*",
     "php-ffmpeg/php-ffmpeg": "^0.18.0",
     "php-amqplib/php-amqplib": ">=3.0"
